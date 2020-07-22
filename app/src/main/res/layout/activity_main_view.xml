@@ -8,15 +8,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- region guidelines -->
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/gl_horizontal_top_buttons"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_percent="0.64" />
-        <!-- endregion guidelines -->
-
 
         <!-- region background image -->
         <ImageView
@@ -99,7 +90,6 @@
             app:layout_constraintEnd_toStartOf="@id/ll_wallet"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/gl_horizontal_top_buttons"
             app:layout_constraintVertical_chainStyle="packed">
 
             <TextView
@@ -138,7 +128,6 @@
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toStartOf="@id/station_services"
             app:layout_constraintStart_toEndOf="@id/ll_easy_pay"
-            app:layout_constraintTop_toBottomOf="@id/gl_horizontal_top_buttons"
             app:layout_constraintVertical_chainStyle="packed">
 
             <TextView
@@ -177,7 +166,6 @@
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/ll_wallet"
-            app:layout_constraintTop_toBottomOf="@id/gl_horizontal_top_buttons"
             app:layout_constraintVertical_chainStyle="packed">
 
             <TextView
@@ -208,7 +196,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="4dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/bg_main_button"
             android:gravity="center"
             android:orientation="vertical"
@@ -216,8 +204,7 @@
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toStartOf="@id/ll_messages"
             app:layout_constraintHorizontal_chainStyle="packed"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/ll_easy_pay">
+            app:layout_constraintStart_toStartOf="parent">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -247,15 +234,14 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="4dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/bg_main_button"
             android:gravity="center"
             android:orientation="vertical"
             app:layout_constraintBottom_toTopOf="@id/view_bottom"
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toStartOf="@id/ll_config"
-            app:layout_constraintStart_toEndOf="@id/ll_benefits"
-            app:layout_constraintTop_toBottomOf="@id/ll_wallet">
+            app:layout_constraintStart_toEndOf="@id/ll_benefits">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -285,15 +271,14 @@
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="16dp"
             android:background="@drawable/bg_main_button"
             android:gravity="center"
             android:orientation="vertical"
             app:layout_constraintBottom_toTopOf="@id/view_bottom"
             app:layout_constraintDimensionRatio="1:1"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/ll_messages"
-            app:layout_constraintTop_toBottomOf="@id/station_services">
+            app:layout_constraintStart_toEndOf="@id/ll_messages">
 
             <TextView
                 android:layout_width="wrap_content"
