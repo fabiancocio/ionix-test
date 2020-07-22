@@ -3,7 +3,6 @@ package cl.cocio.androidtestionix.interfaces;
 import android.content.Context;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 
 import cl.cocio.androidtestionix.data.api.responses.PersonDetail;
 
