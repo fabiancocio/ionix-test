@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AndroidTestIonix</string>
+    <string name="fa_dollar_sign">\uf155</string>
+    <string name="fa_wallet">\uf555</string>
+    <string name="fa_map_marked_alt">\uf5a0</string>
+    <string name="fa_tag">\uf02b</string>
+    <string name="fa_envelope">\uf0e0</string>
+    <string name="fa_cog">\uf013</string>
+    <string name="title_config">Configuración</string>
+    <string name="title_messages">Mensajes [0]</string>
+    <string name="title_benefits">Mis Beneficios</string>
+    <string name="title_stations_services">Estaciones de servicio</string>
+    <string name="title_wallet">Billetera</string>
+    <string name="title_pay">Pago Fácil</string>
+    <string name="title_welcome">Bienvenido</string>
+
+    <string name="user_name">%1$s</string>
+    <string name="version_app">v%1$s</string>
+
+
+</resources>
